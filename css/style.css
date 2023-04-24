@@ -1,0 +1,402 @@
+
+@font-face {
+	font-family: "Daughter of Fortune";
+	src: url("../fonts/Daughter of Fortune.ttf");
+}
+
+body{
+	background-color:#f4f4f4;
+	color:#555;
+	font-family:Verdana, sans-serif;
+}
+
+#logo-i-social {
+	
+	display:flex;
+	
+	
+}
+
+#logo-holder {
+	
+	flex-grow:1;
+	
+	
+	
+}
+
+#social-holder {
+	
+	flex-grow:1;
+	text-align:right;
+	
+}
+#social-holder a img{
+	width: 24px;
+	height:24px;
+	margin:5px;
+	
+	
+}
+
+#social-holder a {
+	
+	text-decoration:none;
+}
+
+
+#logo-holder  img {
+	
+	width:24px;
+	height:24px;
+	
+}
+
+
+.container{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header{
+	background-color:#009999;
+	color:#fff;
+}
+
+#navbar{
+	background-color:#333;
+	color:#fff;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+#showcase{
+	background-position:center right;
+	min-height:300px;
+	margin-bottom:30px;
+	text-align: center;
+	
+}
+
+
+#main{
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background: #333;
+	color:#fff;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin:auto;
+}
+
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+
+
+
+}
+
+.categories {
+	background-image: url('../broken leg.jpg');
+	background-size: cover;
+	font-family: Arial, Sans-serif;
+	font-size: 40px;
+	color: #006666;
+	border: 1px #ccc solid;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.categories h2{
+	text-align:center;
+	color: #006666;
+}
+
+.categories ul{
+	color: #006666;
+	font-size:20px;
+	padding:0;
+	padding-left:20px;
+}
+
+.categories li{
+	padding-bottom:6px;
+	border-bottom:dotted 1px #333;
+}
+
+.mycanvas {
+	
+	width: 25%;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	margin-left: 40px;
+	padding: 20px;
+}
+.my-form{
+	padding:20px;
+}
+
+.my-form .form-group{
+	padding-bottom:15px;
+}
+
+.my-form label{
+	display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	width:100%;
+}
+.my-form input[type="email"], .my-form email{
+	padding:8px;
+	width:100%;
+}
+.my-form input[type="date"], .my-form date{
+	padding:8px;
+	width:100%;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+
+a:hover{
+	color:blue;
+}
+.button{
+	background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+}
+
+.button:hover{
+	background:red;
+	color:#fff;
+}
+li {list-style-type: none;
+font-size: 16pt;
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+#more {display: none;}
+.Travel{
+	background-image:url('../avion.jpg');
+	background-size: cover;
+	font-family:Arial, Sans-serif;
+	font-size:40px;
+	color: #006666;
+	border:1px #ccc solid;
+	padding:10px;
+	border-radius:15px;
+}
+@media only screen and (max-width: 600px) {
+	.Travel {
+		font-size:20px;
+	}
+}
+	.Travel h2 {
+		text-align: center;
+		color: #006666;
+	}
+
+	.Travel ul {
+		color: #006666;
+		font-size: 20px;
+		padding: 0;
+		padding-left: 20px;
+	}
+
+	.Travel li {
+		padding-bottom: 6px;
+		border-bottom: dotted 1px #333;
+	}
+
+	.Accommodation {
+		background-image: url('../Hotel.jpeg');
+		background-size: cover;
+		font-family: Arial, Sans-serif;
+		font-size: 40px;
+		color: #006666;
+		border: 1px #ccc solid;
+		padding: 10px;
+		border-radius: 15px;
+	}
+@media only screen and (max-width: 600px) {
+	.Accommodation {
+		font-size: 20px;
+	}
+}
+
+
+		.Accommodation h2 {
+			text-align: center;
+			color: #006666;
+		}
+
+		.Accommodation ul {
+			color: #006666;
+			font-size: 20px;
+			padding: 0;
+			padding-left: 20px;
+		}
+
+		.Accommodation li {
+			padding-bottom: 6px;
+			border-bottom: dotted 1px #333;
+		}
+
+.Medical-procedure {
+	background-image: url('../doctors.jpg' );
+	background-size:cover;
+	font-family: Arial, Sans-serif;
+	font-size: 40px;
+	color: #006666;
+	border: 1px #ccc solid;
+	padding: 10px;
+	border-radius: 15px;
+}
+@media only screen and (max-width: 600px) {
+	.Medical-procedure {
+		font-size: 20px;
+		
+	}
+}
+}
+.Medical-procedure h2{
+
+	text-align:center;
+	color: #006666;
+}
+
+.Medical-procedure ul{
+	color: #006666;
+	font-size:20px;
+	padding:0;
+	padding-left:20px;
+}
+
+.Medical-procedure li{
+	padding-bottom:6px;
+	border-bottom:dotted 1px #333;
+}
+header{
+	font-family:Georgia, sans-serif;
+	font-size:25px;
+}

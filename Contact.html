@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Medicinski Turizam</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<script src="site.js"></script>
+	<script src="js/jquery-3.4.0.min.js"></script>
+	<script src="js/canvas.js"></script>
+	<header id="main-header">
+		<div class="container">
+			<h1>Medical tourism</h1>
+			<div class="column">
+
+				<div id="logo-i-social">
+					<div id="logo-holder">
+
+					</div>
+					<div id="social-holder">
+						<a href="https://www.facebook.com">
+							<img alt="Facebook" src="fb.png">
+						</a>
+
+						<a href="https://www.instagram.com">
+							<img alt="Instagram" src="inst.png">
+						</a>
+
+						<a href="https://twiter.com">
+							<img alt="Twitter" src="tw.png">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="index.html">Home page</a></li>
+				<li><a href="Service.html">Service</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="mycanvas">
+		<canvas id="ffc" width="504" height="254" />
+		<!--<audio id="sound" src="audio/audio.mp3"></audio>-->
+	</div>
+
+		<form class="my-form">
+			<div class="form-group">
+				<label>Name: </label>
+				<input type="text" name="imeprezime" id="imeprezime">
+			</div>
+			<div class="form-group">
+				<label>Gender</label>
+				<div><input type="radio" name="pol" value="m">Male</div>
+				<div><input type="radio" name="pol" value="z">Female</div>
+				<div><input type="radio" name="pol" value="d">Other</div>
+			</div>
+			<div class="form-group">
+				<label>Email: </label>
+				<input type="email" name="email" id="email" required>
+			</div>
+			<div class="form-group">
+				<label>Date of birth:</label>
+				<input type="date" placeholder="dd.mm.gggg." id="datum" min="1930-01-01" max="2002-00-00" required>
+			</div>
+			<div class="form-group">
+				<label>Telephone:</label>
+				<input type="text" placeholder="Enter telephone number" id="telefon" required>
+			</div>
+			<div class="form-group">
+				<label>Message: </label>
+				<textarea name="message"></textarea>
+			</div>
+			<input class="button" type="submit" value="Submit" onclick="provera()">
+			<button type="reset"> Reset </button>
+
+		</form>
+	</body>
+	</html>
