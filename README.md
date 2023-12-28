@@ -1,0 +1,1 @@
+The Medical Tourism Website is a simple web application created using HTML, CSS, and JavaScript. This website provides information about medical tourism services, allowing users to explore various healthcare destinations and services offered.
